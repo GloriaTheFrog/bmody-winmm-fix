@@ -581,7 +581,7 @@ check_launch_options() {
     echo
     log_info "You MUST set the following launch options for Balatro in Steam:"
     echo
-    echo "    WINEDLLOVERRIDES=\"version=n,b\" %command%"
+    echo "    WINEDLLOVERRIDES=\"winmm=n,b\" %command%"
     echo
     log_info "To set launch options:"
     log_info "1. Right-click Balatro in your Steam library"
