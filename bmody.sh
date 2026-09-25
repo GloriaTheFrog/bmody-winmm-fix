@@ -664,7 +664,7 @@ main() {
     log_info "  • Steamodded: Installed in $BALATRO_SAVE_PATH/Mods/"
     echo
     log_warning "REMEMBER: Launch options must be set in Steam!"
-    log_info "Launch Options: WINEDLLOVERRIDES=\"version=n,b\" %command%"
+    log_info "Launch Options: WINEDLLOVERRIDES=\"winmm=n,b\" %command%"
     echo
     log_info "To add more mods:"
     log_info "  1. Use: $0 --mod path/to/mod.zip"
